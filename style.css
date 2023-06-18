@@ -1,6 +1,7 @@
 .linearGreen {
 	background: linear-gradient(to right, #00ff85, #008043);
 	transition: all 1s ease-in-out;
+	background-position: top center;
 }
 
 #headerLogo {
@@ -53,16 +54,22 @@
   }
 }
 
-.linearGreen {  
+.linearGreenMove {  
   background: linear-gradient(135deg, #008043 30%, #00ff85 37%, #008043 40%);
+	background-position: top center;
   animation: move-it 5s linear infinite;
 }
-.linearGreen {  
+.linearGreenMove {  
   background: linear-gradient(90deg, #008043 30%, #00ff85 50%, #008043 70%);
+	background-position: top center;
   animation: move-it 5s linear infinite;
 }
-.linearGreen {  
-  background: linear-gradient(135deg, #008043 30%, #00ff85 50%, #008043 65%);
+.linearGreenMove {  
+  background: linear-gradient(135deg, #008043 20%, #00ff85 50%, #008043 70%);
+	background-position: top center;
   animation: move-it 5s linear infinite;
 }
 
+body {
+	height: 300vh;
+}
