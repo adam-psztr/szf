@@ -1,11 +1,30 @@
 .linearGreen {
-	background: linear-gradient(to right, #00ff85, #008043);
+	background: linear-gradient(to right, #00ff85, #008043 90%);
 	transition: all 1s ease-in-out;
 	background-position: top center;
 }
 
 #headerLogo {
 	width: 50px;
+}
+
+#navbarNavDropdown {
+	box-shadow: 0 1px 0px rgba(0, 0, 0, 0) inset;
+	transition: box-shadow .1s ease-in-out;
+}
+
+#navbarNavDropdown.show {
+	box-shadow: 0 1px 0px rgba(0, 0, 0, .1) inset;
+}
+
+.navbar-nav .nav-item {
+	padding-left: 10px;
+	border-radius: 5px;
+}
+
+.navbar-nav .nav-item:hover {
+	background-color: rgba(0, 128, 67, .2);
+	transition: background-color .3s ease-in-out;
 }
 
 /* Small devices (landscape phones, 576px and up) */
