@@ -1,7 +1,17 @@
-.linearGreen {
+.linearGreenR {
 	background: linear-gradient(to right, #00ff85, #008043 90%);
 	transition: all 1s ease-in-out;
 	background-position: top center;
+}
+
+.linearGreen {
+	background: linear-gradient(0deg, #00ff85, #008043 90%);
+	transition: color .2s ease-in-out;
+}
+
+.linearGreen:hover {
+	background: linear-gradient(180deg, #00ff85, #008043 90%);
+	color: rgba(255, 255, 255, .9);
 }
 
 #headerLogo {
@@ -73,16 +83,19 @@
   background: linear-gradient(135deg, #008043 30%, #00ff85 37%, #008043 40%);
 	background-position: top center;
   animation: move-it 5s linear infinite;
+	animation-delay: .3s;
 }
 .linearGreenMove {  
-  background: linear-gradient(90deg, #008043 30%, #00ff85 50%, #008043 70%);
+	background: linear-gradient(90deg, #008043 30%, #00ff85 50%, #008043 70%);
 	background-position: top center;
   animation: move-it 5s linear infinite;
+	animation-delay: .3s;
 }
 .linearGreenMove {  
-  background: linear-gradient(135deg, #008043 20%, #00ff85 50%, #008043 70%);
+	background: linear-gradient(135deg, #008043 20%, #00ff85 50%, #008043 70%);
 	background-position: top center;
   animation: move-it 5s linear infinite;
+	animation-delay: .3s;
 }
 
 body {
